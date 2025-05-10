@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elauesha Salon & Spa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-[#800000] shadow-md">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-white">Elauesha Salon & Spa</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#home" class="hover:text-gray-300 text-white">Home</a></li>
+          <li><a href="#services" class="hover:text-gray-300 text-white">Our Services</a></li>
+          <li><a href="#about" class="hover:text-gray-300 text-white">About</a></li>
+          <li><a href="#contact" class="hover:text-gray-300 text-white">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-[#B22222] py-20 text-center text-white">
+    <h2 class="text-4xl font-bold mb-4">Time To Shine</h2>
+    <p class="text-lg mb-6">
+      Discover the best version of yourself at Elauesha's Salon. We’re here to bring your hair dreams to life — with expert care, a relaxing atmosphere, and service that comes from the heart.
+    </p>
+    <a href="#contact" class="bg-[#800000] text-white px-6 py-3 rounded-full hover:bg-[#A52A2A]">Booking Now!</a>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-8 text-[#800000]">Our Services</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Haircut & Styling -->
+        <div class="shadow-lg p-6 rounded-xl border">
+          <h4 class="text-xl font-bold mb-2 text-[#800000]">Haircut & Styling</h4>
+          <p>From classic cuts to trendy looks by skilled stylists</p>
+          <p>Pixie Haircut</p>
+          <img src="pixie cut.jpeg" alt="Pixie Haircut" loading="lazy">
+          <p>Hime Haircut</p>
+          <img src="hime  cut.jpeg" alt="Hime Haircut" loading="lazy">
+          <p>Bob Haircut</p>
+          <img src="bob haircut.jpeg" alt="Bob Haircut" loading="lazy">
+          <p>Hush Cut</p>
+          <img src="hush cut.jpeg" alt="Hush Haircut" loading="lazy">
+        </div>
+
+        <!-- Hair Coloring -->
+        <div class="shadow-lg p-6 rounded-xl border">
+          <h4 class="text-xl font-bold mb-2 text-[#800000]">Hair Coloring</h4>
+          <p>Rich tones and modern techniques like balayage & highlights</p>
+          <p>Ginger Hair Color</p>
+          <img src="hair color ginger.jpeg" alt="Ginger Hair Color" loading="lazy">
+          <p>Blue Balayage</p>
+          <img src="hair color blue balayage.jpeg" alt="Blue Balayage Hair Color" loading="lazy">
+          <p>Caramel Hair Color</p>
+          <img src="hair color caramel.jpeg" alt="Caramel Hair Color" loading="lazy">
+          <p>Highlight (Oreo) Hair Color</p>
+          <img src="hair color oreo.jpeg" alt="Oreo Highlight Hair Color" loading="lazy">
+        </div>
+
+        <!-- Spa & Relaxation -->
+        <div class="shadow-lg p-6 rounded-xl border">
+          <h4 class="text-xl font-bold mb-2 text-[#800000]">Spa & Relaxation</h4>
+          <p>Relax</p>
+          <p> And</p>
+          <p>Refresh let your skin glow.</p>
+          <img src="spa vibes.jpeg" alt="Spa Vibes" loading="lazy">
+          <img src="spa.jpeg" alt="Spa Room" loading="lazy">
+          <img src="facial.jpeg" alt="Facial Treatment" loading="lazy">
+          <img src="message bodyspa.jpeg" alt="Body Spa" loading="lazy">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-[#F5F5F5]">
+    <div class="container mx-auto flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-8 md:mb-0 px-4">
+        <img src="Beauty Salon Qblash - Kuwait.jpeg" alt="Salon Interior" class="rounded-xl shadow-xl" loading="lazy">
+      </div>
+      <div class="md:w-1/2 px-4">
+        <h3 class="text-3xl font-semibold mb-4 text-[#800000]">About Us</h3>
+        <p>
+          More Than Just a Salon.
+          At Elauesha's Salon, we believe beauty starts with self-care. Our salon is a place where you can unwind, refresh your look, and walk out feeling confident and empowered.
+          Our passionate team is committed to making you feel comfortable, cared for, and radiant.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6 text-[#800000]">Call Us</h3>
+      <form class="max-w-xl mx-auto space-y-4">
+        <input type="text" placeholder="Name" class="w-full p-3 border rounded" required />
+        <input type="email" placeholder="Email" class="w-full p-3 border rounded" required />
+        <textarea placeholder="Your Message" class="w-full p-3 border rounded" rows="5" required></textarea>
+        <button type="submit" class="bg-[#800000] text-white px-6 py-3 rounded hover:bg-[#A52A2A]">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#800000] text-center p-4 text-sm text-white">
+    © 2025 Elauesha Salon & Spa. All rights reserved.
+  </footer>
+
+</body>
+</html>
